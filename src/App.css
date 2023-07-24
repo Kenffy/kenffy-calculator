@@ -15,7 +15,8 @@
 
 .calculator {
   background-color: white;
-  /* padding: 1rem; */
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
 .screens {
@@ -26,6 +27,7 @@
   background-color: #333;
   color: whitesmoke;
   min-height: 5rem;
+  border-radius: 0.3rem;
 }
 
 .screens span {
@@ -49,16 +51,18 @@
 
 .inputs {
   display: grid;
-  grid-template-columns: repeat(4, 4rem);
+  grid-template-columns: repeat(4, 65px);
+  margin-top: 1rem;
 }
 
 .inputs button {
-  height: 4rem;
+  height: 65px;
   border: 1px solid white;
   outline: none;
   font-size: 1.2rem;
   color: orangered;
   cursor: pointer;
+  border-radius: 0.3rem;
 }
 
 .inputs button:hover {
